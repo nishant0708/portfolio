@@ -1,0 +1,156 @@
+*{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playfair Display', serif;
+}
+#navbar{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 20, 22);
+}
+.image{
+    display:inline-flexbox;
+    background-color: rgb(20, 20, 22);
+
+}
+.text{
+    font-size: 55px;
+    margin-left: 50px;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(195, 149, 171);
+    font-weight: 800;
+    background-color: rgb(20, 20, 22);
+    transition: 1s;
+}
+.text:hover{
+    color: rgb(64, 41, 216);
+    text-shadow: 5px 5px 5px rgb(216, 24, 24);
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+    background-color: rgb(20, 20, 22);
+}
+.list ul {
+    background-color: rgb(20, 20, 22);
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    background-color: rgb(20, 20, 22);
+}
+.list ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.list ul li:hover::after{
+    width: 100%;
+
+}
+.fa-caret-down{
+    background-color: rgb(20, 20, 22);;
+}
+
+.fa-search{
+    background-color: rgb(20, 20, 22);
+}
+/* Assignment */
+#assignment{
+    width: 80vh;
+    height: 80vh;
+    position: relative;
+}
+.text1{
+    font-size: 72px;
+    text-align: center;
+    margin-left: 100%;
+    font-style:oblique;
+    font-weight: 600;
+}
+.text2{
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-left: 80%;
+    text-align: center;
+
+}
+#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70%;
+    padding: 50px;
+}
+#buttons a {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(57, 49, 49);
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+#buttons a:hover{
+    background-color: red;
+    color: black;
+}
+iframe{
+    width: 80vw;
+    height: 80vh;
+    padding: 50px;
+    margin-left: 12%;
+  
+}
+#foot{
+    margin-top: 60vh;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#foot p{
+    padding: 20px;
+    background-color: rgb(61, 61, 61);
+    color: black;
+}
+#foot p a{
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+ 
+}
+
+.fa-linkedin-square{
+    background-color:  rgb(61, 61, 61);
+    
+}
+.fa-github{
+    background-color:  rgb(61, 61, 61);
+}
+.fa-free-code-camp{
+    background-color:  rgb(61, 61, 61);
+
+}
+.fa-instagram{
+    background-color:  rgb(61, 61, 61);
+
+}
